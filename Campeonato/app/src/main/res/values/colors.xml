@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_color">#3498db</color>
+    <color name="list_color">#2980b9</color>
+    <color name="first_round">#FF8F3D</color>
+    <color name="second_round">#FF8726</color>
+    <color name="third_round">#D45819</color>
+    <color name="champion">#F6DE7D</color>
+</resources>

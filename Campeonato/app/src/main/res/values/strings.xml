@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Campeonato</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_team">Nuevo Equipo</string>
+    <string name="title_font">sans-serif</string>
+    <string name="team_name_label">Nombre:</string>
+    <string name="rating_label">Rating:</string>
+    <string name="create_button">Crear</string>
+    <string name="add_picture_button">Andir Imagen</string>
+    <string name="title_activity_create_team">CreateTeam</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_show_team">ShowTeam</string>
+    <string name="show_team">Ver Equipo</string>
+    <string name="delete_button">Eliminar</string>
+    <string name="edit_button">Editar</string>
+    <string name="title_activity_championship">Championship</string>
+</resources>

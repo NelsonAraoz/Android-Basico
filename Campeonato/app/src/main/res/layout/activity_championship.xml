@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:background="@color/first_round">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_team_group" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment2"
+            android:layout_weight="1" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment3"
+            android:layout_weight="1" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment4"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/second_round"
+        android:weightSum="2"
+        android:layout_gravity="center">
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment5"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment6"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/third_round">
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment7"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/champion"
+        android:weightSum="10">
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment15"
+            android:layout_weight="7" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:onClick="playGame" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/third_round">
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment14"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/second_round">
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment12"
+            android:layout_weight="1" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment13"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:background="@color/first_round">
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment8"
+            android:layout_weight="1" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment9"
+            android:layout_weight="1" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment10"
+            android:layout_weight="1" />
+
+        <fragment
+            tools:layout="@layout/fragment_team_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.zuki.campeonato.TeamGroup"
+            android:id="@+id/fragment11"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

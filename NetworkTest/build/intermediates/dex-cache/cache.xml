@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-812f9be8f3186f140a9dd91ff4838e613bd81585.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a">
+        <dex dex="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\pre-dexed\debug\classes-369d604ef6d1071ad0f8de12e72eddc3e2713ec1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\pre-dexed\debug\classes-7a7bd5a118616625b2fd8746a0be6bdfd920eda2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zuki\Documents\Eclipse\eclipse-java-luna-SR1-win32-x86_64\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-8d84a4799d4f216ca275a4a95dd252eedfa67f51.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Zuki\Documents\AndroidHub7\android-basic\NetworkTest\app\build\intermediates\pre-dexed\debug\classes-f14493e1fb06a802a24e25171c4c5aeca36aafab.jar" />
+    </item>
+
+</items>
